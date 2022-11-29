@@ -21,5 +21,7 @@ export class ColorsListComponent implements OnInit {
     });
   }
 
-  ngOnInit(): void {this.getColors()}
+  ngOnInit(): void {
+    this.getColors();
+  }
 }
